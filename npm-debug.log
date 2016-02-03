@@ -1,0 +1,312 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hexo',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of C:\Users\pc\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\pc\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'hexo', null ]
+7 verbose cache add spec hexo
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'hexo',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'hexo',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed hexo@*
+10 verbose addNamed "*" is a valid semver range for hexo
+11 silly addNameRange { name: 'hexo', range: '*', hasData: false }
+12 silly mapToRegistry name hexo
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.cnpmjs.org/
+15 silly mapToRegistry uri http://registry.cnpmjs.org/hexo
+16 verbose addNameRange registry:http://registry.cnpmjs.org/hexo not in flight; fetching
+17 verbose request uri http://registry.cnpmjs.org/hexo
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 15:39:06
+20 verbose request id a1773dc3a4092654
+21 http request GET http://registry.cnpmjs.org/hexo
+22 http 200 http://registry.cnpmjs.org/hexo
+23 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+23 verbose headers   date: 'Tue, 02 Feb 2016 07:32:01 GMT',
+23 verbose headers   'content-type': 'application/json; charset=utf-8',
+23 verbose headers   'transfer-encoding': 'chunked',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-readtime': '36',
+23 verbose headers   'content-encoding': 'gzip' }
+24 silly get cb [ 200,
+24 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+24 silly get     date: 'Tue, 02 Feb 2016 07:32:01 GMT',
+24 silly get     'content-type': 'application/json; charset=utf-8',
+24 silly get     'transfer-encoding': 'chunked',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-readtime': '36',
+24 silly get     'content-encoding': 'gzip' } ]
+25 verbose get saving hexo to C:\Users\pc\AppData\Roaming\npm-cache\registry.cnpmjs.org\hexo\.cache.json
+26 silly addNameRange number 2 { name: 'hexo', range: '*', hasData: true }
+27 silly addNameRange versions [ 'hexo',
+27 silly addNameRange   [ '3.2.0-beta.2',
+27 silly addNameRange     '3.2.0-beta.1',
+27 silly addNameRange     '3.1.1',
+27 silly addNameRange     '3.1.0',
+27 silly addNameRange     '3.0.1',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '3.0.0-rc.4',
+27 silly addNameRange     '3.0.0-rc.3',
+27 silly addNameRange     '3.0.0-rc.2',
+27 silly addNameRange     '3.0.0-rc.1',
+27 silly addNameRange     '3.0.0-beta.4',
+27 silly addNameRange     '3.0.0-beta.1',
+27 silly addNameRange     '3.0.0-beta.3',
+27 silly addNameRange     '3.0.0-beta.2',
+27 silly addNameRange     '2.8.3',
+27 silly addNameRange     '2.8.2',
+27 silly addNameRange     '2.8.1',
+27 silly addNameRange     '2.8.0',
+27 silly addNameRange     '2.7.1',
+27 silly addNameRange     '2.7.0',
+27 silly addNameRange     '2.6.3',
+27 silly addNameRange     '2.6.2',
+27 silly addNameRange     '2.6.1',
+27 silly addNameRange     '2.6.0',
+27 silly addNameRange     '2.5.7',
+27 silly addNameRange     '2.5.6',
+27 silly addNameRange     '2.5.5',
+27 silly addNameRange     '2.5.4',
+27 silly addNameRange     '2.5.3',
+27 silly addNameRange     '2.5.2',
+27 silly addNameRange     '2.5.1',
+27 silly addNameRange     '2.4.5',
+27 silly addNameRange     '2.4.4',
+27 silly addNameRange     '2.4.3',
+27 silly addNameRange     '2.4.2',
+27 silly addNameRange     '2.4.1',
+27 silly addNameRange     '2.4.0',
+27 silly addNameRange     '2.3.0',
+27 silly addNameRange     '2.2.1',
+27 silly addNameRange     '2.2.0',
+27 silly addNameRange     '2.1.1',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.0.7',
+27 silly addNameRange     '2.0.6',
+27 silly addNameRange     '2.0.5',
+27 silly addNameRange     '2.0.4',
+27 silly addNameRange     '2.0.3',
+27 silly addNameRange     '2.0.2',
+27 silly addNameRange     '2.0.1',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.0.0-rc3',
+27 silly addNameRange     '2.0.0-rc2',
+27 silly addNameRange     '2.0.0-rc1',
+27 silly addNameRange     '2.0.0-beta2',
+27 silly addNameRange     '2.0.0-beta1',
+27 silly addNameRange     '1.2.4',
+27 silly addNameRange     '1.2.3',
+27 silly addNameRange     '1.2.2',
+27 silly addNameRange     '1.2.1',
+27 silly addNameRange     '1.2.0',
+27 silly addNameRange     '1.1.4',
+27 silly addNameRange     '1.1.3',
+27 silly addNameRange     '1.1.2',
+27 silly addNameRange     '1.1.1',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.0.9',
+27 silly addNameRange     '1.0.8',
+27 silly addNameRange     '1.0.7',
+27 silly addNameRange     '1.0.6',
+27 silly addNameRange     '1.0.5',
+27 silly addNameRange     '1.0.4',
+27 silly addNameRange     '1.0.3',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '0.5.12',
+27 silly addNameRange     '0.5.11',
+27 silly addNameRange     '0.5.10',
+27 silly addNameRange     '0.5.9',
+27 silly addNameRange     '0.5.8',
+27 silly addNameRange     '0.5.7',
+27 silly addNameRange     '0.5.6',
+27 silly addNameRange     '0.5.5',
+27 silly addNameRange     '0.5.4',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.4.5',
+27 silly addNameRange     '0.4.4',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.1.11',
+27 silly addNameRange     '0.1.10',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.7',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.0.6',
+27 silly addNameRange     '0.0.5',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.1' ] ]
+28 silly addNamed hexo@3.1.1
+29 verbose addNamed "3.1.1" is a plain semver version for hexo
+30 silly cache afterAdd hexo@3.1.1
+31 verbose afterAdd C:\Users\pc\AppData\Roaming\npm-cache\hexo\3.1.1\package\package.json not in flight; writing
+32 verbose afterAdd C:\Users\pc\AppData\Roaming\npm-cache\hexo\3.1.1\package\package.json written
+33 silly install resolved [ { name: 'hexo',
+33 silly install resolved     version: '3.1.1',
+33 silly install resolved     description: 'A fast, simple & powerful blog framework, powered by Node.js.',
+33 silly install resolved     main: 'lib/hexo',
+33 silly install resolved     bin: { hexo: './bin/hexo' },
+33 silly install resolved     scripts: { test: 'gulp test' },
+33 silly install resolved     directories: { lib: './lib', bin: './bin' },
+33 silly install resolved     engines: { node: '>= 0.10.0' },
+33 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/hexojs/hexo.git' },
+33 silly install resolved     homepage: 'http://hexo.io/',
+33 silly install resolved     keywords: [ 'website', 'blog', 'cms', 'framework', 'hexo' ],
+33 silly install resolved     author:
+33 silly install resolved      { name: 'Tommy Chen',
+33 silly install resolved        email: 'tommy351@gmail.com',
+33 silly install resolved        url: 'http://zespia.tw' },
+33 silly install resolved     license: 'MIT',
+33 silly install resolved     dependencies:
+33 silly install resolved      { abbrev: '^1.0.5',
+33 silly install resolved        archy: '^1.0.0',
+33 silly install resolved        bluebird: '^2.9.8',
+33 silly install resolved        bunyan: '^1.3.3',
+33 silly install resolved        chalk: '^1.0.0',
+33 silly install resolved        cheerio: '^0.19.0',
+33 silly install resolved        'hexo-cli': '^0.1.6',
+33 silly install resolved        'hexo-front-matter': '^0.2.1',
+33 silly install resolved        'hexo-fs': '^0.1.3',
+33 silly install resolved        'hexo-i18n': '^0.2.1',
+33 silly install resolved        'hexo-util': '^0.1.7',
+33 silly install resolved        'js-yaml': '^3.2.5',
+33 silly install resolved        lodash: '^3.2.0',
+33 silly install resolved        minimatch: '^2.0.1',
+33 silly install resolved        moment: '~2.10.3',
+33 silly install resolved        'moment-timezone': '^0.3.0',
+33 silly install resolved        nunjucks: '^1.3.3',
+33 silly install resolved        'pretty-hrtime': '^1.0.0',
+33 silly install resolved        'strip-indent': '^1.0.0',
+33 silly install resolved        swig: '1.4.2',
+33 silly install resolved        'swig-extras': '0.0.1',
+33 silly install resolved        'text-table': '^0.2.0',
+33 silly install resolved        through2: '^1.1.1',
+33 silly install resolved        tildify: '^1.0.0',
+33 silly install resolved        titlecase: '^1.0.2',
+33 silly install resolved        warehouse: '^1.0.2' },
+33 silly install resolved     devDependencies:
+33 silly install resolved      { chai: '^2.2.0',
+33 silly install resolved        coveralls: '^2.11.2',
+33 silly install resolved        del: '^1.1.1',
+33 silly install resolved        gulp: '^3.8.9',
+33 silly install resolved        'gulp-istanbul': '^0.9.0',
+33 silly install resolved        'gulp-jshint': '^1.8.6',
+33 silly install resolved        'gulp-load-plugins': '^0.10.0',
+33 silly install resolved        'gulp-mocha': '^2.0.0',
+33 silly install resolved        'hexo-renderer-marked': '^0.2.3',
+33 silly install resolved        'jshint-stylish': '^1.0.0',
+33 silly install resolved        mocha: '^2.0.1',
+33 silly install resolved        sinon: '^1.12.2' },
+33 silly install resolved     gitHead: 'c8a503dc57f4cb14c7e8eebcbe0cd2087e4bb21e',
+33 silly install resolved     bugs: { url: 'https://github.com/hexojs/hexo/issues' },
+33 silly install resolved     _id: 'hexo@3.1.1',
+33 silly install resolved     _shasum: '87bf35c65141e4b8af5f1727c3d0a7100e64ece3',
+33 silly install resolved     _from: 'hexo@*',
+33 silly install resolved     _npmVersion: '2.5.1',
+33 silly install resolved     _nodeVersion: '0.12.0',
+33 silly install resolved     _npmUser: { name: 'tommy351', email: 'tommy351@gmail.com' },
+33 silly install resolved     maintainers: [ [Object] ],
+33 silly install resolved     dist:
+33 silly install resolved      { shasum: '87bf35c65141e4b8af5f1727c3d0a7100e64ece3',
+33 silly install resolved        size: 51645,
+33 silly install resolved        noattachment: false,
+33 silly install resolved        tarball: 'http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz' },
+33 silly install resolved     publish_time: 1432120638368,
+33 silly install resolved     _cnpm_publish_time: 1432120638368,
+33 silly install resolved     _resolved: 'http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz',
+33 silly install resolved     readme: 'ERROR: No README data found!' } ]
+34 info install hexo@3.1.1 into C:\Users\pc\AppData\Roaming\npm
+35 info installOne hexo@3.1.1
+36 verbose installOne of hexo to C:\Users\pc\AppData\Roaming\npm not in flight; installing
+37 verbose lock using C:\Users\pc\AppData\Roaming\npm-cache\_locks\hexo-295cb35717da0214.lock for C:\Users\pc\AppData\Roaming\npm\node_modules\hexo
+38 silly install write writing hexo 3.1.1 to C:\Users\pc\AppData\Roaming\npm\node_modules\hexo
+39 verbose unbuild node_modules\hexo
+40 info preuninstall hexo@3.1.1
+41 info uninstall hexo@3.1.1
+42 verbose unbuild rmStuff hexo@3.1.1 from C:\Users\pc\AppData\Roaming\npm\node_modules
+43 silly gentlyRm C:\Users\pc\AppData\Roaming\npm\hexo.cmd is being gently removed
+44 silly gentlyRm verifying C:\Users\pc\AppData\Roaming\npm is an npm working directory
+45 silly gentlyRm containing path C:\Users\pc\AppData\Roaming\npm is under npm's control, in C:\Users\pc\AppData\Roaming\npm
+46 silly gentlyRm deletion target C:\Users\pc\AppData\Roaming\npm\hexo.cmd is under C:\Users\pc\AppData\Roaming\npm
+47 verbose gentlyRm vacuuming from C:\Users\pc\AppData\Roaming\npm\hexo.cmd up to C:\Users\pc\AppData\Roaming\npm
+48 silly gentlyRm C:\Users\pc\AppData\Roaming\npm\hexo is being gently removed
+49 silly gentlyRm verifying C:\Users\pc\AppData\Roaming\npm is an npm working directory
+50 silly gentlyRm containing path C:\Users\pc\AppData\Roaming\npm is under npm's control, in C:\Users\pc\AppData\Roaming\npm
+51 silly gentlyRm deletion target C:\Users\pc\AppData\Roaming\npm\hexo is under C:\Users\pc\AppData\Roaming\npm
+52 verbose gentlyRm vacuuming from C:\Users\pc\AppData\Roaming\npm\hexo up to C:\Users\pc\AppData\Roaming\npm
+53 silly vacuum-fs Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo'
+53 silly vacuum-fs     at Error (native)
+54 verbose unlock done using C:\Users\pc\AppData\Roaming\npm-cache\_locks\hexo-295cb35717da0214.lock for C:\Users\pc\AppData\Roaming\npm\node_modules\hexo
+55 verbose stack Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo'
+55 verbose stack     at Error (native)
+56 verbose cwd f:\gitPro\yangdongfeng
+57 error Windows_NT 10.0.10586
+58 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hexo" "-g"
+59 error node v4.2.2
+60 error npm  v2.14.7
+61 error path C:\Users\pc\AppData\Roaming\npm\hexo
+62 error code EPERM
+63 error errno -4048
+64 error syscall lstat
+65 error Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo'
+65 error     at Error (native)
+65 error  { [Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo']
+65 error   errno: -4048,
+65 error   code: 'EPERM',
+65 error   syscall: 'lstat',
+65 error   path: 'C:\\Users\\pc\\AppData\\Roaming\\npm\\hexo' }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -4048, true ]
+68 verbose unbuild node_modules\hexo
+69 info preuninstall hexo@3.1.1
+70 info uninstall hexo@3.1.1
+71 verbose unbuild rmStuff hexo@3.1.1 from C:\Users\pc\AppData\Roaming\npm\node_modules
+72 silly gentlyRm C:\Users\pc\AppData\Roaming\npm\hexo.cmd is being gently removed
+73 silly gentlyRm verifying C:\Users\pc\AppData\Roaming\npm is an npm working directory
+74 silly gentlyRm containing path C:\Users\pc\AppData\Roaming\npm is under npm's control, in C:\Users\pc\AppData\Roaming\npm
+75 silly gentlyRm deletion target C:\Users\pc\AppData\Roaming\npm\hexo.cmd is under C:\Users\pc\AppData\Roaming\npm
+76 verbose gentlyRm vacuuming from C:\Users\pc\AppData\Roaming\npm\hexo.cmd up to C:\Users\pc\AppData\Roaming\npm
+77 silly gentlyRm C:\Users\pc\AppData\Roaming\npm\hexo is being gently removed
+78 silly gentlyRm verifying C:\Users\pc\AppData\Roaming\npm is an npm working directory
+79 silly gentlyRm containing path C:\Users\pc\AppData\Roaming\npm is under npm's control, in C:\Users\pc\AppData\Roaming\npm
+80 silly gentlyRm deletion target C:\Users\pc\AppData\Roaming\npm\hexo is under C:\Users\pc\AppData\Roaming\npm
+81 verbose gentlyRm vacuuming from C:\Users\pc\AppData\Roaming\npm\hexo up to C:\Users\pc\AppData\Roaming\npm
+82 silly vacuum-fs Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo'
+82 silly vacuum-fs     at Error (native)
+83 error error rolling back Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo'
+83 error error rolling back     at Error (native)
+83 error error rolling back  { [Error: EPERM: operation not permitted, lstat 'C:\Users\pc\AppData\Roaming\npm\hexo']
+83 error error rolling back   errno: -4048,
+83 error error rolling back   code: 'EPERM',
+83 error error rolling back   syscall: 'lstat',
+83 error error rolling back   path: 'C:\\Users\\pc\\AppData\\Roaming\\npm\\hexo' }

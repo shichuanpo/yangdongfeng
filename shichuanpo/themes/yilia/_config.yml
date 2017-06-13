@@ -2,8 +2,8 @@
 menu:
   主页: /
   所有文章: /archives
-  前端知识: /tags/前端知识
-  日记: /tags/日记
+  前端知识: /tags/前端/
+  日记: /tags/日记/
 
 # SubNav
 subnav:
